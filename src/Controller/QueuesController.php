@@ -25,7 +25,7 @@ class QueuesController extends FOSRestController
   }
   /**
    * Create Movie.
-   * @Rest\Post("/api/dequeue/append")
+   * @Rest\Post("/dequeue/append")
    *
    * @return Response
    */
@@ -35,7 +35,7 @@ class QueuesController extends FOSRestController
   }
   /**
    * Add Node to begging to queue.
-   * @Rest\Delete("/api/dequeue/pop")
+   * @Rest\Delete("/dequeue/pop")
    *
    * @return Response
    */
@@ -45,7 +45,7 @@ class QueuesController extends FOSRestController
   }
   /**
    * Add Node to begging to queue.
-   * @Rest\Delete("/api/dequeue/eject")
+   * @Rest\Delete("/dequeue/eject")
    *
    * @return Response
    */
